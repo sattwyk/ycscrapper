@@ -64,7 +64,7 @@ async function main() {
         stream.write(JSON.stringify(company) + ',\n');
       }
     }
-
+    // TODO: Fix this
     stream.write(']');
     // Write the company data to a CSV file
     stream.end();
