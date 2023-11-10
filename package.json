@@ -3,8 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "tsx watch index.ts",
-    "new": "tsx watch new.ts"
+    "start": "tsx watch index.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
