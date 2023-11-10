@@ -1,0 +1,19 @@
+{
+  "name": "ycscrapper",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch index.ts",
+    "new": "tsx watch new.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.0",
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0"
+  }
+}
